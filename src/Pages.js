@@ -64,7 +64,7 @@ class Pages extends React.Component {
       return (
         <div>
           <Line>
-            Hallo Sexi Lexi,
+            Hallo Sexi Lexi (oder Eli),
             <br /> dein Geschenk wartet am Ende auf dich 😘.
             <br />
             <br /> Bist du bereit?
@@ -134,10 +134,10 @@ class Pages extends React.Component {
               Hast du den Durchblick? Zwei Sauerstoff und ein Silizium
               ergeben?&nbsp;
               <input
-                size="5"
-                maxLength="5"
+                size="4"
+                maxLength="4"
                 placeholder="?"
-                onChange={(e) => this.validatePage("glass", e.target.value, 6)}
+                onChange={(e) => this.validatePage("glas", e.target.value, 6)}
               ></input>
             </Line>
           )}
@@ -162,8 +162,8 @@ class Pages extends React.Component {
           )}
           {this.state.page > 6 && (
             <Line>
-              Was ist eine Sammelbezeichnung für die für die
-              französischsprachigen Gebiete der Schweiz laut Flö?&nbsp;
+              Was ist eine Sammelbezeichnung für die französischsprachigen
+              Gebiete der Schweiz laut Flö?&nbsp;
               <input
                 size="9"
                 maxLength="9"
@@ -176,7 +176,7 @@ class Pages extends React.Component {
           )}
           {this.state.page > 7 && (
             <Line>
-              Wieviele Minuten sind heute schon vergangen?
+              Wieviele Minuten sind heute schon vergangen?&nbsp;
               <input
                 size="4"
                 maxLength="4"
